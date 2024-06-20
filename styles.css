@@ -1,0 +1,103 @@
+#firstPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+}
+#buttonMain {
+  width: 200px;
+  height: 50px;
+  padding: 10px 5px;
+  background-color: #0390fc;
+  color: white;
+  border: none;
+  border-radius: 9px;
+  margin-top: 50px;
+}
+#buttonMain:hover {
+  background-color: #036ffc;
+}
+#titleModal,
+#pModal {
+  border-bottom: 0.5px solid black;
+  width: 300px;
+  padding-bottom: 10px;
+}
+#modalPopup {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  display: none;
+  border: 0.5px solid #99a0a8;
+  border-radius: 6px;
+  padding: 15px;
+  overflow: auto;
+  top: 300px;
+  left: 550px;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+}
+#modalBackground {
+  background: linear-gradient(0.6turn, #3f87a6, #ebf8e1, #f69d3c);
+  opacity: 0.6;
+  z-index: 1;
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+#titleModal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0;
+}
+#exitButton {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: white;
+  font-weight: 900;
+  font-size: 1em;
+}
+#exitButton:hover {
+  transform: scale(1.2);
+}
+#buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 0.8em;
+}
+#saveChanges {
+  background-color: #0390fc;
+  color: white;
+  border: none;
+  padding: 6px 5px;
+}
+#closeButton {
+  background-color: #99a0a8;
+  color: white;
+  border: none;
+  padding: 6px 5px;
+}
+dialog {
+  border: 0.5px solid #99a0a8;
+  border-radius: 6px;
+}
+#modalPopup::backdrop {
+  background: linear-gradient(45deg, red, blue);
+  opacity: 0.4;
+}
+#closeButton:hover {
+  background-color: #777b80;
+}
+#saveChanges:hover {
+  background-color: #036ffc;
+}

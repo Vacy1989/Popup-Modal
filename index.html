@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Popup Modal</title>
+  </head>
+  <body>
+    <div id="firstPage">
+      <h1>Welcome to my first Modal Popup</h1>
+      <p>
+        Toggle a working modal demo by clicking the button below. It will popup
+        and fade in from the top of the page.
+      </p>
+      <button id="buttonMain" type="button">Launch Demo Modal</button>
+    </div>
+    <!-- <dialog id="modal"> -->
+    <div id="modalBackground"></div>
+    <div id="modalPopup">
+      <div id="titleModal">
+        <h2>Eureka</h2>
+        <button id="exitButton">X</button>
+      </div>
+      <p id="pModal">I have found it!</p>
+      <div id="buttons">
+        <button id="closeButton">Close</button>
+        <button id="saveChanges">Save Changes</button>
+      </div>
+    </div>
+    <!-- </dialog> -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
