@@ -87,14 +87,7 @@
   border: none;
   padding: 6px 5px;
 }
-dialog {
-  border: 0.5px solid #99a0a8;
-  border-radius: 6px;
-}
-#modalPopup::backdrop {
-  background: linear-gradient(45deg, red, blue);
-  opacity: 0.4;
-}
+
 #closeButton:hover {
   background-color: #777b80;
 }
